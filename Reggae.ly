@@ -15,10 +15,10 @@
       \clef percussion
       \time 4/4
 
-      { bd4_"R" bd4_"R" }
-      { <bd sn>^>_"L"_"R"  bd4_"R" }
-     { bd4_"R" bd4_"R" }
-      { <bd sn>^>_"L"_"R" bd4_"R" }
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd8_"R" }
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd8_"R" }
     }
   }
 
@@ -30,25 +30,57 @@
       \clef percussion
       \time 4/4
 
-      { bd4_"R" bd4_"R" }
-      { <bd sn>^>_"L"_"R"  bd8_"R" sn8^>_"L"}
-     { bd4_"R" bd4_"R" }
-      { <bd sn>^>_"L"_"R" bd4_"R" }
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd16_"R" sn16^>_"L" }
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd8_"R" }
     }
   }
 
   \score {
     \header {
-      piece = "R #3 - Swing Feel #2"
+      piece = "R #3 - Swing Feel #1"
     }
     \drums {
       \clef percussion
       \time 4/4
 
-      { bd4_"R" bd4_"R" }
-      { <bd sn>^>_"L"_"R"  bd8_"R" sn8^>_"L"}
-     { bd8_"R" sn8^>_"L" bd4_"R" }
-      { <bd sn>^>_"L"_"R" bd4_"R" }
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R"  bd16_"R" sn16^>_"L"}
+      { bd16_"R" sn16^>_"L" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd8_"R" }
+    }
+  }
+
+  \score {
+    \header {
+      piece = "R #4 - Swing Feel #2"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { bd8_"R" bd8_"R" }
+      { <bd sn>^>_"L"_"R"  bd16_"R" sn16^>_"L"}
+      { bd16_"R" sn16^>_"L" bd8_"R" }
+      { <bd sn>^>_"L"_"R" bd8_"R" }
+    }
+  }
+
+  \score {
+    \header {
+      piece = "R #5 - Swing Feel #3"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { \parenthesize sn8_"R" \parenthesize sn8_"L" \parenthesize sn8_"R" \parenthesize sn8_"L" }
+      { bd8_"R" \parenthesize sn8_"L" \parenthesize sn8_"R" \parenthesize sn8_"L" }
+      { \parenthesize sn8_"R" \parenthesize sn8_"L" \parenthesize sn8_"R" \parenthesize sn8_"L" }
+      { bd8_"R" \parenthesize sn8_"L" \parenthesize sn8_"R" \parenthesize sn8_"L" }
     }
   }
 }
+
+
