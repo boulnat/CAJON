@@ -37,4 +37,70 @@
     }
   }
 
+  \score {
+    \header {
+      piece = "F #3"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { bd8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16 bd8 \parenthesize sn8 sn8^> \parenthesize sn8 }
+      { bd8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16 bd8 \parenthesize sn8 sn8^> \parenthesize sn8 }
+    }
+  }
+
+  \score {
+    \header {
+      piece = "F #4"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 bd16 }
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 bd16 }
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+
+    }
+  }
+
+  \score {
+    \header {
+      piece = "F #5"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { bd8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16 \parenthesize sn8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16}
+      { bd8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16 \parenthesize sn8 \parenthesize sn8 sn8^> \parenthesize sn16 bd16}
+    }
+  }
+
+  \score {
+    \header {
+      piece = "F #6"
+    }
+    \drums {
+      \clef percussion
+      \time 4/4
+
+      { bd16 \parenthesize sn16 bd16 \parenthesize sn16 }
+      { sn16^> bd16 \parenthesize sn16 \parenthesize sn16 }
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 sn16^> }
+
+      { bd16 \parenthesize sn16 bd16 \parenthesize sn16 }
+      { sn16^> bd16 \parenthesize sn16 \parenthesize sn16 }
+      { bd16 \parenthesize sn16 \parenthesize sn16 \parenthesize sn16 }
+      { sn16^> \parenthesize sn16 \parenthesize sn16 sn16^> }
+    }
+  }
 }
